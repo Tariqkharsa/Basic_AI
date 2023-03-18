@@ -1,6 +1,4 @@
-# AI_Basic_Idea
-
-***Gradient Descent***
+# How AI works????
 
 In this repository, I will show you how gradient descent works for a basic physics probelm, especially for those who are new to the topic
 
