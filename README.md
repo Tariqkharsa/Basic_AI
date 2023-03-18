@@ -76,7 +76,7 @@ Steps:
 
 -------Neural Networks-------
 
-Neural Network used in almost all AI/ML specialities are just an extension to this core idea balong with more input dimensions.
+Neural Network used in almost all AI/ML specialities are just an extension to this core idea along with more input dimensions.
 
 To help visualize it. Think about going to the lowest point of a mountain.
 
