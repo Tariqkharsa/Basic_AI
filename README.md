@@ -5,6 +5,7 @@ In this repository, I will explain to you the core idea behind AI for a basic ph
 At its core, AI is just a method of Gradient Descent, which is used to minimize the difference between the predicted and actual value.
 
 Imagine a function that measures the difference between predicted and actual value. Such a function will look like this:
+
 Cost = (actual - predicted)^2            (cost function)
 
 The actual values are usually the observed value from an experiment. 
