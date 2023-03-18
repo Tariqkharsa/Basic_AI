@@ -1,8 +1,8 @@
 # How AI works????
 
-In this repository, I will show you how gradient descent works for a basic physics probelm, especially for those who are new to the topic
+In this repository, I will show you how the core idea of how AI works for a basic physics problem, especially for those who are new to the topic
 
-The main idea behind Gradient Descent is to minimize the difference between the predicted and actual value.
+The main idea behind AI is Gradient Descent, which is used to minimize the difference between the predicted and actual value.
 
 Imagine a distance function that measures the difference between predicted and actual value. Such a function will look like this:
 Cost = (actual - predicted)^2            (cost function)
