@@ -1,17 +1,17 @@
 # How AI works????
 
-In this repository, I will show you how the core idea of how AI works for a basic physics problem, especially for those who are new to the topic
+In this repository, I will explain to you the core idea behind AI for a basic physics problem, especially for those who are new to the topic.
 
-The main idea behind AI is Gradient Descent, which is used to minimize the difference between the predicted and actual value.
+At its core, AI is just a method of Gradient Descent, which is used to minimize the difference between the predicted and actual value.
 
-Imagine a distance function that measures the difference between predicted and actual value. Such a function will look like this:
+Imagine a function that measures the difference between predicted and actual value. Such a function will look like this:
 Cost = (actual - predicted)^2            (cost function)
 
 The actual values are usually the observed value from an experiment. 
 The predicted values are what we think the observed value should be (initially this could be any random value)
 
 Usually predicted values for linear layers are written in the form:
- predicted_value = w*x
+ predicted_value = w*x (i.e y = m*x, you leanred that in algebra I)
 where w represent the weight/slope and x represent the input.
 
 To find the best prediction, we must modify our weight to yield us a predicted value that is almost identical to the observed/actual value. 
