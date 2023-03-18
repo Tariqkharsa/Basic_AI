@@ -12,7 +12,9 @@ The actual values are usually the observed value from an experiment.
 The predicted values are what we think the observed value should be (initially this could be any random value)
 
 Usually predicted values for linear layers are written in the form:
+
  predicted_value = w*x (i.e y = m*x, you leanred that in algebra I)
+
 where w represent the weight/slope and x represent the input.
 
 To find the best prediction, we must modify our weight to yield us a predicted value that is almost identical to the observed/actual value. 
@@ -28,6 +30,8 @@ Gradient descent is the idea of taking the slope/derivative of a function at a s
 
 As we can see in the figure above, this is more or less what we are doing. However, one thing to keep in mind is we need to be careful about how much we should change. To do so, we add a new variable called learning rate (lr). This is to ensure we take a small step at a time and not a huge step that could bring us to a value way off from the actual.
 
+
+
 - Cost function 
 - weight/slope
 - input
@@ -36,7 +40,9 @@ As we can see in the figure above, this is more or less what we are doing. Howev
 - Learning rate
 
 
+
 Now we have all the missing pieces!!!!!!!    Let's Assemble.....
+
 
 For linear problems, we will have:
 
@@ -52,9 +58,12 @@ For linear problems, we will have:
 
 ---Code Implementation
 
+
 I used the above concept to create a fucntion that can train on all data points using random input time (t) and actual displacement value (y) to get the true velocity (weight/slope) of an object. 
 
+
 Steps:
+
 
 - I start with a random weight (velocity) and generate a predicted value (displacement) using it and input t (time)
 - I loop through all data points.
@@ -74,6 +83,7 @@ To help visualize it. Think about going to the lowest point of a mountain.
 
 
 ![image](https://user-images.githubusercontent.com/88465880/226087146-ef6f497d-bbe7-461c-8388-43071e3e61d6.png)
+
 
 Neural Network used in almost all AI/ML specialities are just an extension to this core idea along with more input dimensions.
 
