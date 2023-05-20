@@ -1,4 +1,4 @@
-# How AI works????
+# How AI works???? (Gradient Descent)
 
 In this repository, I will explain to you the core idea behind AI for a basic physics problem, especially for those who are new to the topic.
 
